@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+	margin: 0;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+}
+
+.video-frame {}
+.video-frame video {
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+}
+
+.logo {
+	position: absolute;
+	top: 50px;
+	left: 100px;
+}
